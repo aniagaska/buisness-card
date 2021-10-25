@@ -1,22 +1,22 @@
 <!DOCTYPE html>
-<html Lang="eng">
+<html lang="en-US">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anna Stypulkowski - Web Developer</title>
-    <meta property="og:description" content="Anna Stypulkowski is a web developer based in Queens, New York">
+    <meta name="description" content="Anna Stypulkowski is a web developer based in Queens, New York. View her business card to get her contact information and see her work across the web.">
     <style>
-        body {
-            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-            font-size: 16px;
+        html {
             /*  find a new color that suits you https://colours.neilorangepeel.com/ brighter colors might work better (think NYC subway signs) */
             background-color: crimson;
+        }
+        body {
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size: 16px;            
             display: grid;
             justify-content: center;
             align-content: center;
-        }
-        .card {
             background-color: white;
             padding: 3rem;
             margin: 2rem;
@@ -30,7 +30,7 @@
             font-size: 1.75rem;
             word-break: break-all;
         }
-        h2 {
+        .subtitle {
             margin: 0;
             font-size: 1.25rem;
             text-transform: uppercase;
@@ -54,8 +54,6 @@
         }
         a {
             color: black;
-            text-underline-offset: .05rem;
-            text-decoration-thickness: .15rem;
         }
         a:focus {
             background-color: black;
@@ -93,13 +91,13 @@
     <div class="card">
         <header>
             <h1>Anna Stypulkowski</h1>
-            <h2>Web Developer</h2>
+            <p class="subtitle">Web Developer</p>
         </header>
         <main>
             <ul>
-                <li><span class="contact">E</span> <a href="mailto:aniastypul@gmail.com">aniastypul@gmail.com</a></li>
-                <li><span class="contact">T</span> <a href="https://twitter.com/AnnaNanNanner">@AnnaNanNanner</a></li>
-                <li><span class="contact">W</span> <a href="http://annastypulkow.ski">annastypulkow.ski</a></li>
+                <li><abbr title="email">E</abbr> <a href="mailto:aniastypul@gmail.com">aniastypul@gmail.com</a></li>
+                <li><abbr title="twitter">T</abbr> <a href="https://twitter.com/AnnaNanNanner">@AnnaNanNanner</a></li>
+                <li><abbr title="website">W</abbr> <a href="http://annastypulkow.ski">annastypulkow.ski</a></li>
             </ul>
             <ul>
                 <li><a href="https://github.com/aniagaska">Github</a></li>
